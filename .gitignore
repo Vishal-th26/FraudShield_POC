@@ -1,0 +1,41 @@
+# ── Python ─────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ── VS Code ────────────────────────────
+.vscode/
+
+# ── Notebooks ──────────────────────────
+*.ipynb
+
+# ── Temporary / junk files ─────────────
+temp*
+*.log
+
+# ── Artifacts (IGNORE ALL) ─────────────
+artifacts/
+src/artifacts/
+
+# Ignore all data
+data/*
+
+# Allow only demo sample
+!data/sample_input.csv
+
+# ── Ignore everything in src EXCEPT 3 FILES ──
+src/*
+!src/preprocessing_1.py
+!src/HybridModel_v1.py
+!src/predict.py
+
+test.py
+# ── Ignore frontend, notebooks, scripts ──
+frontend/
+notebooks/
+scripts/
+
+# ── OS junk ────────────────────────────
+.DS_Store
+Thumbs.db
